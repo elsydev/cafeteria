@@ -1,0 +1,22 @@
+/*********Utilidades************/
+@use "base/variables" as v;
+.text-center {
+  text-align: center;
+}
+.bg-primario {
+  background-color: v.$primario;
+}
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.margin-negativo-10 {
+  margin-top: -10rem;
+}
+.bg-white {
+  background-color: v.$blanco;
+}
+.padding-bottom-0 {
+  padding-bottom: 0;
+}
